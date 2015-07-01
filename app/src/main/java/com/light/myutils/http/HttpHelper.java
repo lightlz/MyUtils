@@ -1,22 +1,16 @@
 package com.light.myutils.http;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.Bitmap.CompressFormat;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.util.Log;
-
 /**
  * 
- * @usage HTTP访问辅助工具类 
- * @author arjinmc
- * @email arjinmc@hotmail.com
- * @website http://www.hicsg.com
+ * @usage HTTP访问辅助工具类
  * @version 2014-1-16
  */
 public class HttpHelper {
